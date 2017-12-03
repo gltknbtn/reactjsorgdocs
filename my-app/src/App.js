@@ -18,6 +18,8 @@ import {NameForm} from './pages/9_forms.js';
 import {EssayForm} from './pages/9_forms.js';
 import {FlavorForm} from './pages/9_forms.js';
 import {Reservation} from './pages/9_forms.js';
+import {Calculator, Calculator2} from './pages/10_liftingStateUp.js';
+import {LoadingButton} from './pages/reactBootstrap1_loadingButton.js';
 
 
 
@@ -130,6 +132,18 @@ class App extends Component {
         ====================forms_4 start====================<br/><br/>
         <Reservation />
         ====================forms_4 end====================<br/><br/>
+
+        ====================liftingStateUp_1 start====================<br/><br/>
+        <Calculator />
+        ====================liftingStateUp_1 end====================<br/><br/>
+
+        ====================liftingStateUp_2 start====================<br/><br/>
+        <Calculator2 />
+        ====================liftingStateUp_2 end====================<br/><br/>
+
+        ====================reactBootstrap1_loadingButton start====================<br/><br/>
+        <LoadingButton />
+        ====================reactBootstrap1_loadingButton end====================<br/><br/>
 
       </div>
 
